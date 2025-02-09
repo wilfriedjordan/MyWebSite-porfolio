@@ -12,3 +12,71 @@
     display: none !important;
   }
 }
+
+[class*="revelation-"]{
+  opacity:0;
+  transform: translateY(-30px);
+}
+.revelation-visible{
+  opacity:1;
+  transform: translateY(0);
+  transition: 0.8s cubic-bezier(.5,0,0,1);
+}
+.revelation-2{
+  transition-delay: .1s;
+}
+.revelation-3{
+  transition-delay: .1s;
+}
+.revelation-4{
+  transition-delay: .2s;
+}
+.revelation-5{
+  transition-delay: .3s;
+}
+[class*="revelationSkill-"]{
+  opacity:0;
+  transform: translateX(-30px);
+}
+.revelationSkill-visible{
+  opacity:1;
+  transform: translateY(0);
+  transition: 1s cubic-bezier(.5,0,0,1);
+}
+.revelationSkill-2{
+  transition-delay: .1s;
+}
+.revelationSkill-3{
+  transition-delay: .2s;
+}
+.revelationSkill-4{
+  transition-delay: .3s;
+}
+.revelationSkill-5{
+  transition-delay: .4s;
+}
+.revelationSkill-6{
+  transition-delay: .5s;
+}
+.revelationSkill-7{
+  transition-delay: .6s;
+}
+
+[class*="revelationProject-"]{
+  opacity:0;
+  transform: translateX(-30px);
+}
+.revelationProject-visible{
+  opacity:1;
+  transform: translateY(0);
+  transition: 1s cubic-bezier(.5,0,0,1);
+}
+.revelationProject-2{
+  transition-delay: .1s;
+}
+.revelationProject-3{
+  transition-delay: .2s;
+}
+.revelationProject-4{
+  transition-delay: .3s;
+}

@@ -4,6 +4,7 @@ import Service from './shared/Service';
 import Skills from './shared/Skills';
 import Project from './shared/Project';
 import Contact from './shared/Contact';
+
 export default function Home() {
   return (
     <div className="">
